@@ -12,8 +12,8 @@ export default function WorkExperience() {
         <h2 className="sm:text-4xl text-3xl font-bold sm:py-20 py-10 text-center text-gray-900">
           My <span className="text-coral">Work Experience</span>
         </h2>
-        <div className="space-y-12">
-          <div className="flex sm:flex-row flex-col sm:space-x-12 space-x-0 md:space-y-0 space-y-5">
+        <div className="sm:space-y-12 space-y-3">
+          <div className="flex sm:flex-row flex-col sm:space-x-12 space-x-0 md:space-y-0 space-y-3">
             <WorkCard
               img={Intern}
               title="Fronted Developer SERA Astra Intern"
@@ -25,7 +25,7 @@ export default function WorkExperience() {
               desc="Led the IT departemen and responsible for frontend development efforts, utilizing Next.js and React.js."
             />
           </div>
-          <div className="flex sm:flex-row flex-col sm:space-x-12 space-x-0 md:space-y-0 space-y-5">
+          <div className="flex sm:flex-row flex-col sm:space-x-12 space-x-0 md:space-y-0 space-y-3">
             <WorkCard
               img={Mentor}
               title="Mentor Coding Workshop"

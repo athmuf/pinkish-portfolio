@@ -47,10 +47,10 @@ export default function Service() {
               </div>
             </div>
           </div>
-          <div className="bg-gray-100 border rounded-3xl shadow-md">
-          <div className="sm:h-full h-[140px] flex hover:translate-x-3 duration-300 transition-all">
+          <div className="sm:h-full h-1/2 bg-gray-100 border rounded-3xl shadow-md">
+          <div className="flex h-full hover:translate-x-3 duration-300 transition-all">
             <div className="relative w-1/2">
-              <div className="absolute flex flex-col h-full justify-center sm:p-8 p-4">
+              <div className="flex flex-col h-full justify-center sm:p-8 p-4">
                 <p className="md:text-base text-sm">
                   I constantly try to improve
                 </p>

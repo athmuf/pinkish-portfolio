@@ -13,7 +13,7 @@ export default function Contact() {
       <h2 className="sm:text-4xl text-3xl font-bold sm:py-20 py-10 text-center text-gray-900">
         <span className="text-coral">Contact</span> Me
       </h2>
-      <div className="flex sm:space-x-10 space-x-3 items-center justify-center space-y-0">
+      <div className="flex sm:space-x-10 space-x-3 sm:items-center items-start justify-center space-y-0">
         <div className="relative">
           <div className="relative sm:h-[250px] sm:w-[200px] h-[150px] w-[100px] z-10">
             <Image
