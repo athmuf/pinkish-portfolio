@@ -25,7 +25,6 @@ export default function Home() {
       <section className="md:px-24 px-3">
         <Contact />
       </section>
-      <Footer />
     </main>
   );
 }

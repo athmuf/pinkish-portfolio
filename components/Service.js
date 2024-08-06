@@ -59,7 +59,7 @@ export default function Service() {
             </div>
             <div className="relative w-1/2">
               <div className="absolute sm:p-8 p-4">
-                <div className="sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 space-y-1">
+                <div className="sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 space-y-1 sm:text-base text-sm">
                   <div className="bg-rose-quartz border px-5 sm:py-2 py-1 rounded-lg">
                     React.js
                   </div>

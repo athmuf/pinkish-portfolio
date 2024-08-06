@@ -7,9 +7,9 @@ import Intern from "@/public/intern.webp";
 export default function WorkExperience() {
   return (
     <div>
-      <div className="h-20 bg-gradient-to-t from-cream sm:pt-0 pt-96" />
-      <div name="Works" className="h-screen flex flex-col justify-center py-10 sm:pt-0 pt-96 bg-cream md:px-24 px-3">
-        <h2 className="sm:text-4xl text-3xl font-bold sm:py-20 py-10 text-center text-gray-900">
+      <div className="h-20 bg-gradient-to-t from-cream sm:pt-0 pt-24" />
+      <div className="h-screen flex flex-col justify-center py-10 sm:pt-0 pt-96 bg-cream md:px-24 px-3">
+        <h2 name="Works" className="sm:text-4xl text-3xl font-bold sm:py-20 py-10 text-center text-gray-900">
           My <span className="text-coral">Work Experience</span>
         </h2>
         <div className="sm:space-y-12 space-y-3">
