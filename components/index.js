@@ -2,7 +2,6 @@ import Hero from "./Hero";
 import Modal from "./Modal";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import Profile from "./Profile";
 import Service from "./Service";
 import Contact from "./Contact";
 import MyProject from "./MyProject";
@@ -16,7 +15,6 @@ export {
   Modal,
   Footer,
   Navbar,
-  Profile,
   Service,
   Contact,
   MyProject,

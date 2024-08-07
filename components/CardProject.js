@@ -31,13 +31,15 @@ export default function CardProject({
             alt="Project"
             fill
             objectFit="cover"
-            className="rounded-2xl pt-8 px-8 pb-4"
+            className="rounded-2xl sm:pt-8 pt-3 sm:px-8 px-3 sm:pb-4 pb-3"
           ></Image>
         </div>
-        <div className="py-4 pt-4 px-8 pb-8">
+        <div className="py-4 sm:pt-4 pt-0 sm:px-8 px-3 sm:pb-8 pb-3">
           <div className="relative h-full content-between">
             <div>
-              <h2 className="font-bold text-2xl text-gray-900 pb-2">{title}</h2>
+              <h2 className="font-bold sm:text-2xl text-lg text-gray-900 pb-2">
+                {title}
+              </h2>
               <p className="md:text-base text-sm text-gray-500">{desc}</p>
             </div>
             <div className="right-0 pt-2 flex justify-end">
@@ -71,29 +73,35 @@ export default function CardProject({
             </div>
             <div className="w-full md:w-1/2 space-y-4 md:space-y-8">
               <div className="text-sm md:text-base pt-4 md:pt-0">{caption}</div>
-              <div className="flex space-x-2">
-                {deployment && (
-                  <Link
-                    href={deployment}
-                    target="__blank"
-                    rel="noopener noreferrer"
-                  >
-                    <CustomButton text="Live demo" icons={<IoLogInOutline />} />
-                  </Link>
-                )}
-                {github && (
-                  <Link
-                    href={github}
-                    target="__blank"
-                    rel="noopener noreferrer"
-                  >
-                    <CustomButton
-                      text="View code"
-                      icons={<IoCodeSlashOutline />}
-                    />
-                  </Link>
-                )}
-              </div>
+              {(deployment || github) && (
+                <div className="flex space-x-2">
+                  {deployment && (
+                    <Link
+                      href={deployment}
+                      target="__blank"
+                      rel="noopener noreferrer"
+                    >
+                      <CustomButton
+                        text="Live demo"
+                        icons={<IoLogInOutline />}
+                      />
+                    </Link>
+                  )}
+                  {github && (
+                    <Link
+                      href={github}
+                      target="__blank"
+                      rel="noopener noreferrer"
+                    >
+                      <CustomButton
+                        text="View code"
+                        icons={<IoCodeSlashOutline />}
+                      />
+                    </Link>
+                  )}
+                </div>
+              )}
+
               {features && (
                 <div className="text-sm md:text-base">
                   <span className="font-semibold pb-1 md:pb-2 text-lg">

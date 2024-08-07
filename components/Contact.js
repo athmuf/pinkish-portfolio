@@ -15,7 +15,7 @@ export default function Contact() {
       </h2>
       <div className="flex sm:space-x-10 space-x-3 sm:items-center items-start justify-center space-y-0">
         <div className="relative">
-          <div className="relative sm:h-[250px] sm:w-[200px] h-[150px] w-[100px] z-10">
+          <div className="relative sm:h-[200px] sm:w-[150px] h-[160px] w-[120px] z-10">
             <Image
               src={Picture}
               alt="Athifah Muflihah"
@@ -38,8 +38,8 @@ export default function Contact() {
           </div>
 
           <div className="">
-            <ul className="flex sm:space-x-5 space-x-0 sm:flex-row flex-col space-y-1 sm:space-y-0">
-              <li className="border rounded-full shadow-sm hover:shadow-md">
+            <ul className="grid md:grid-cols-2 md:gap-5 gap-3 grid-cols-1">
+              <li className="border rounded-full shadow-sm hover:shadow-md w-fit">
                 <Link
                   target="_blank"
                   href="https://www.instagram.com/athifamuf/"
@@ -51,7 +51,7 @@ export default function Contact() {
                   </div>
                 </Link>
               </li>
-              <li className="border rounded-full shadow-sm hover:shadow-md">
+              <li className="border rounded-full shadow-sm hover:shadow-md w-fit">
                 <Link
                   target="_blank"
                   href="https://www.linkedin.com/in/athifamuf/"
@@ -63,7 +63,7 @@ export default function Contact() {
                   </div>
                 </Link>
               </li>
-              <li className="border rounded-full shadow-sm hover:shadow-md">
+              <li className="border rounded-full shadow-sm hover:shadow-md w-fit">
                 <Link
                   target="_blank"
                   href="https://github.com/athmuf"
@@ -75,7 +75,7 @@ export default function Contact() {
                   </div>
                 </Link>
               </li>
-              <li className="border rounded-full shadow-sm hover:shadow-md">
+              <li className="border rounded-full shadow-sm hover:shadow-md w-fit">
                 <Link
                   target="_blank"
                   href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxjbZlbsxCpltxHJnHHLmPstDvfWJVQMBJWBdwFVWCRFmZmmNsnwZWctsqzqzLRwvkMnNv"

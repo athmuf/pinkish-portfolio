@@ -7,7 +7,7 @@ import { projects } from "@/constant";
 export default function MyProject() {
   return (
     <div
-      className="h-screen flex flex-col justify-center py-10 sm:pt-32 mt-56"
+      className="h-screen flex flex-col justify-center py-10 sm:pt-16 mt-32"
     >
       <h2 name="Projects" className="sm:text-4xl text-3xl font-bold sm:py-20 py-10 text-center text-gray-900">
         A small section of <span className="text-coral">my project</span>
