@@ -13,7 +13,7 @@ export default function Contact() {
       <h2 className="sm:text-4xl text-3xl font-bold sm:py-20 py-10 text-center text-gray-900">
         <span className="text-coral">Contact</span> Me
       </h2>
-      <div className="flex sm:space-x-10 space-x-3 sm:items-center items-start justify-center space-y-0">
+      <div className="flex flex-col sm:flex-row sm:space-x-10 space-x-3 items-center justify-center space-y-3">
         <div className="relative">
           <div className="relative sm:h-[200px] sm:w-[150px] h-[160px] w-[120px] z-10">
             <Image
@@ -28,8 +28,8 @@ export default function Contact() {
           <div className="absolute bottom-0 right-0 h-12 w-12 border-2 rounded-full translate-x-5 translate-y-5" />
         </div>
         <div className="text-gray-900 z-20">
-          <p className="font-bold text-2xl tracking-wide">Athifah Muflihah</p>
-          <div className="flex pb-5 pt-2">
+          <p className="font-bold text-2xl tracking-wide md:text-left text-center">Athifah Muflihah</p>
+          <div className="flex pb-5 pt-2 text-">
             <p className="pr-2">Available for work </p>
             <span class="relative flex h-3 w-3">
               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-dusty-rose opacity-75"></span>
